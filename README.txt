@@ -1,6 +1,7 @@
 Sample Video for Motion Detection 
 
 ffmpeg -i FroggerHighway.mp4 -c:v rawvideo -pix_fmt yuv420p out.yuv
+ffmpeg -i FroggerHighway.mp4 -c:v rawvideo -pix_fmt nv12 nv12.yuv
 
 
 License:
